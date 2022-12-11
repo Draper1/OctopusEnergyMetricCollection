@@ -1,10 +1,10 @@
 # Octopus Energy Collection
 
-This project is a rewrite of the [https://github.com/ainsey11/octopusenergy-consumption-metrics]octopusenergy-consumption-metrics project but written into Go.
+This project is a rewrite of the [octopusenergy-consumption-metrics](https://github.com/ainsey11/octopusenergy-consumption-metrics) project but written into Go.
 
 This project can be deployed via docker and simply needs a config file to be created to start.
 
-Octopus API documentation can be found at [https://developer.octopus.energy/docs/api/#api-end-points]here
+Octopus API documentation can be found at [here](https://developer.octopus.energy/docs/api/#api-end-points).
 
 This requires InfluxDB 2.x in order to work.
 
@@ -12,7 +12,7 @@ This requires InfluxDB 2.x in order to work.
 
 Add a new file into the base directory called `config.json` and add the following keys replacing the example values with information from InfluxDB and Octopus:
 
-Note, you can get your Octopus Energy API and Meter information at the [https://octopus.energy/dashboard/developer]here
+Note, you can get your Octopus Energy API and Meter information at the [here](https://octopus.energy/dashboard/developer).
 
 ```json
 {
