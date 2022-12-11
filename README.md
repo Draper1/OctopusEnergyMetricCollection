@@ -40,5 +40,5 @@ Note, you can get your Octopus Energy API and Meter information at the [here](ht
 To deploy, build using Docker:
 
 ```bash
-docker build
+docker build .
 ```
